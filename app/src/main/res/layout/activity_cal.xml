@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="@color/purple_500"
+    tools:context=".CalActivity">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:id="@+id/back"
+        android:layout_margin="0dp"
+        android:textColor="#000" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="reset"
+        android:id="@+id/reset"
+        android:layout_margin="0dp"
+        android:textColor="#000" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volume of a cylinder is calculated with formula V=pie x r2 x h "
+        android:textColor="@color/white"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:paddingBottom="15dp"
+        android:gravity="center_horizontal"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/height_number_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:drawablePadding="10dp"
+        android:hint="Enter height of the cylinder"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorHighlight="@color/white"
+        android:inputType="number"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/radius_number_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:drawablePadding="10dp"
+        android:hint="Enter radius of the cylinder"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorHighlight="@color/white"
+        android:inputType="number"
+        android:layout_alignParentLeft="true" />
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate the Volume"
+        android:textColor="@color/white"
+        android:shadowColor="@android:color/transparent"
+        android:padding="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="0dp"
+        />
+    <TextView
+        android:id="@+id/calculatedMomentum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The volume of the cylinder is:"
+        android:textColor="@color/white"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:paddingBottom="15dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/textView_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="0"
+        android:textColor="@android:color/white"
+        android:textSize="50sp" />
+
+
+</LinearLayout>
