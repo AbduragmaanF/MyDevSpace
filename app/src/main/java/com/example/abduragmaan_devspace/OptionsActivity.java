@@ -25,7 +25,7 @@ public class OptionsActivity extends AppCompatActivity {
 
             Username = extras.getString( "UserWelcome");
             TextView UserWelcome = (TextView) findViewById(R.id.userWelcome);
-            UserWelcome.setText( Username +"," + " " + "Welcome to Abduragmaans App" );
+            UserWelcome.setText("Dear "+ Username +"," + " " + "Welcome to Abduragmaans App" );
         }
 
 
