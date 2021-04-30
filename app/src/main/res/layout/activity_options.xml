@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="20dp"
+    android:padding="50dp"
     android:background="@color/purple_500"
     tools:context=".OptionsActivity">
 
@@ -28,7 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="center_vertical"
-        android:layout_margin="65pt"
+        android:layout_margin="35pt"
         android:layout_marginBottom="20dp"
         android:alignmentMode="alignMargins"
         android:columnCount="2"
@@ -41,46 +41,46 @@
 
         <Button
             android:id="@+id/btnHome"
-            android:layout_width="135dp"
-            android:layout_height="135dp"
-            android:layout_margin="15dp"
-            android:background="@drawable/buttoncard"
+            android:layout_width="100dp"
+            android:layout_height="105dp"
+            android:layout_margin="10dp"
             android:text="Home"
-            tools:layout_editor_absoluteX="40dp"
+            android:textSize="5pt"
+            tools:layout_editor_absoluteX="224dp"
             tools:layout_editor_absoluteY="182dp" />
 
 
         <Button
             android:id="@+id/btnCal"
-            android:layout_width="145dp"
-            android:layout_height="135dp"
-            android:layout_margin="15dp"
-            android:background="@drawable/buttoncard"
+            android:layout_width="120dp"
+            android:layout_height="105dp"
+            android:layout_margin="10dp"
             android:text="Calculation"
+            android:textSize="5pt"
             tools:layout_editor_absoluteX="224dp"
             tools:layout_editor_absoluteY="182dp" />
 
         <Button
             android:id="@+id/btnAbout"
-            android:layout_width="135dp"
-            android:layout_height="135dp"
+            android:layout_width="100dp"
+            android:layout_height="105dp"
             android:layout_row="1"
             android:layout_column="0"
-            android:layout_margin="15dp"
-            android:background="@drawable/buttoncard"
+            android:layout_margin="10dp"
             android:text="About Me"
-            tools:layout_editor_absoluteX="40dp"
+            android:textSize="5pt"
+            tools:layout_editor_absoluteX="220dp"
             tools:layout_editor_absoluteY="397dp" />
 
         <Button
             android:id="@+id/btnProfile"
-            android:layout_width="135dp"
-            android:layout_height="135dp"
-            android:layout_margin="15dp"
-            android:background="@drawable/buttoncard"
+            android:layout_width="100dp"
+            android:layout_height="105dp"
+            android:layout_margin="10dp"
             android:text="My Dev Profile"
-            tools:layout_editor_absoluteX="224dp"
-            tools:layout_editor_absoluteY="397dp" />
+            android:textSize="5pt"
+            tools:layout_editor_absoluteX="220dp"
+            tools:layout_editor_absoluteY="300dp" />
 
 
     </GridLayout>
